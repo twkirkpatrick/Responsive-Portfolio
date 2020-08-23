@@ -1,0 +1,24 @@
+
+.navbar-nav{
+    position: absolute;
+    right: 0;
+    margin: 0 15px;
+}
+
+.face{
+    width: 300px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+#about-me{
+    border: solid 10px lightgoldenrodyellow;
+    background-color: lightgoldenrodyellow;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+#content{
+    margin-top: 175px;
+    
+}
