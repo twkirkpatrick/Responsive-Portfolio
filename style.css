@@ -1,24 +1,82 @@
 
+*{
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+/* pushes navbar items to right */
 .navbar-nav{
     position: absolute;
     right: 0;
     margin: 0 15px;
 }
 
+.navbar-brand{
+    margin-left: 75px;
+
+}
+
+body{
+    background-image: url(images/mtn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    margin-left: 15px;
+    border-bottom: solid 3px black;
+}
+
+
+
 .face{
     width: 300px;
     border-radius: 50px;
-    margin-top: 50px;
+    padding-right: 20px;
+   
+   
 }
+
+p{
+    line-height: 45px;
+}
+
 
 #about-me{
-    border: solid 10px lightgoldenrodyellow;
-    background-color: lightgoldenrodyellow;
-    border-radius: 50px;
-    margin-top: 50px;
-}
-
-#content{
-    margin-top: 175px;
+    margin-top: 130px;
     
 }
+
+.col-md-8{
+    background-color: floralwhite;
+    border-radius: 15px;
+    opacity: .8;
+    padding-bottom: 20px;
+}
+
+
+/* media queries */
+
+@media (max-width: 576px){
+    .col-md-8{
+        margin-top: -130px;
+        margin-bottom: -150px;
+    }
+
+    .navbar-brand{
+        margin: auto 0;
+    }
+
+    h1{
+        text-align: center;
+    }
+}
+
+
+
+
+    
+
+
+
+
