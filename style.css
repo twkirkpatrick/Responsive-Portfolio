@@ -29,9 +29,10 @@ h1{
 
 
 
+/* Main Image */
 .face{
     width: 300px;
-    border-radius: 50px;
+    border-radius: 40px;
     padding-right: 20px;
    
    
@@ -43,10 +44,11 @@ p{
 
 
 #about-me{
-    margin-top: 130px;
+    margin-top: 80px;
     
 }
 
+/* Main Content */
 .col-md-8{
     background-color: floralwhite;
     border-radius: 15px;
@@ -54,13 +56,26 @@ p{
     padding-bottom: 20px;
 }
 
+.footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+}
 
-/* media queries */
+.footer h6{
+    font-size: 10px;
+}
 
-@media (max-width: 576px){
+
+/* Media Queries */
+
+@media screen (max-width: 576px){
     .col-md-8{
-        margin-top: -130px;
-        margin-bottom: -150px;
+        margin-top: -50px;
     }
 
     .navbar-brand{
