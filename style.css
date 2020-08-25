@@ -17,7 +17,7 @@
 
 body{
     background-image: url(images/mtn.jpg);
-    background-size: cover;
+    background-size: stretch;
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -44,7 +44,7 @@ p{
 
 
 #about-me{
-    margin-top: 80px;
+    margin-top: 40px;
     
 }
 
@@ -56,7 +56,11 @@ p{
     padding-bottom: 20px;
 }
 
-.footer{
+.about-me-container{
+    margin-bottom: 50px;
+}
+
+/* .footer{
     position:fixed;
     bottom: 0;
     width: 100%;
@@ -64,7 +68,10 @@ p{
     color: black;
     text-align: center;
     padding-top: 5px;
-}
+} */
+
+#sticky-footer {
+    flex-shrink: none;
 
 .footer h6{
     font-size: 10px;
