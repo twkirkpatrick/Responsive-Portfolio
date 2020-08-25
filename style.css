@@ -42,7 +42,7 @@ p {
 
 /* Main Content */
 .col-md-8 {
-  background-color: floralwhite;
+  background-color: white;
   border-radius: 15px;
   opacity: 0.8;
   padding-bottom: 20px;
@@ -52,16 +52,6 @@ p {
   margin-bottom: 50px;
 }
 
-/* .footer{
-    position:fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: white;
-    color: black;
-    text-align: center;
-    padding-top: 5px;
-} */
-
 #sticky-footer {
   flex-shrink: none;
   position: fixed;
@@ -69,13 +59,15 @@ p {
   width: 100%;
 }
 
-.content-container{
+#column{
     margin-top: 150px;
-    background-color: floralwhite;
+    background-color: white;
     padding: 15px;
     border-radius: 15px;
     opacity: .8;
 }
+
+
 
 /* Media Queries */
 
