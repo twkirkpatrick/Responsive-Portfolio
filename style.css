@@ -1,5 +1,5 @@
 * {
-  font-family: "Lexend Peta", sans-serif;
+    font-family: 'Montserrat', sans-serif;;
 }
 
 /* pushes navbar items to right */
@@ -10,7 +10,7 @@
 }
 
 .navbar-brand {
-  margin-left: 75px;
+  margin-left: 150px;
 }
 
 body {
@@ -40,6 +40,10 @@ p {
   margin-top: 115px;
 }
 
+main a {
+    font-size: 50px;
+}
+
 /* Main Content */
 #main-content {
   background-color: white;
@@ -63,6 +67,10 @@ p {
     margin-left: 45px;
 }
 
+.header-contact{
+    border-bottom: solid 1px black;
+}
+
 .footer {
     width: 100%;
     background-color: white;
@@ -80,7 +88,7 @@ p {
 
 
   .project-header{
-      border-bottom: solid 2px black;
+      border-bottom: solid 1px black;
   }
 
   #main-column{
@@ -88,6 +96,7 @@ p {
       margin-top: 50px;
       opacity: .8;
       padding-bottom: 20px;
+      border-radius: 15px;
   }
 
   .sample-image{
