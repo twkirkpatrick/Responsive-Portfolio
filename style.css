@@ -20,9 +20,9 @@ body {
   height: 100vh;
 }
 
-h1 {
+.header {
   margin-left: 15px;
-  border-bottom: solid 3px black;
+  border-bottom: solid 1px black;
 }
 
 /* Main Image */
@@ -37,11 +37,11 @@ p {
 }
 
 #about-me {
-  margin-top: 40px;
+  margin-top: 115px;
 }
 
 /* Main Content */
-.col-md-8 {
+#main-content {
   background-color: white;
   border-radius: 15px;
   opacity: 0.8;
@@ -52,28 +52,64 @@ p {
   margin-bottom: 50px;
 }
 
-#sticky-footer {
-  flex-shrink: none;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
 
+/* Beginning of Contact Page */
 #column{
     margin-top: 150px;
     background-color: white;
     padding: 15px;
     border-radius: 15px;
     opacity: .8;
+    margin-left: 45px;
 }
+
+.footer {
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+  }
+  
+  h6{
+      font-size: 10px;
+  }
+
+  /* Beginning of Portfolio Page */
+
+
+
+  .project-header{
+      border-bottom: solid 2px black;
+  }
+
+  #main-column{
+      background-color: white;
+      margin-top: 50px;
+      opacity: .8;
+      padding-bottom: 20px;
+  }
+
+  .sample-image{
+      margin: 10px 0px;
+  }
+
+  .img-thumbnail{
+      border: solid 1px black;
+
+  }
+
+  
+
+
 
 
 
 /* Media Queries */
 
-@media screen (max-width: 576px) {
+@media only screen and (max-width: 576px) {
   .col-md-8 {
-    margin-top: -50px;
+    margin-top: -40px;
   }
 
   .navbar-brand {
@@ -83,4 +119,12 @@ p {
   h1 {
     text-align: center;
   }
+
+  #column{
+      margin-left: 0px;
+      margin-right: 0px;
+      
+  }
+
+  
 }
