@@ -1,63 +1,55 @@
-
-*{
-    font-family: 'Lexend Peta', sans-serif;
+* {
+  font-family: "Lexend Peta", sans-serif;
 }
 
 /* pushes navbar items to right */
-.navbar-nav{
-    position: absolute;
-    right: 0;
-    margin: 0 15px;
+.navbar-nav {
+  position: absolute;
+  right: 0;
+  margin: 0 15px;
 }
 
-.navbar-brand{
-    margin-left: 75px;
-
+.navbar-brand {
+  margin-left: 75px;
 }
 
-body{
-    background-image: url(images/mtn.jpg);
-    background-size: stretch;
-    background-repeat: no-repeat;
-    height: 100vh;
+body {
+  background-image: url(images/mtn.jpg);
+  background-size: stretch;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-h1{
-    margin-left: 15px;
-    border-bottom: solid 3px black;
+h1 {
+  margin-left: 15px;
+  border-bottom: solid 3px black;
 }
-
-
 
 /* Main Image */
-.face{
-    width: 300px;
-    border-radius: 40px;
-    padding-right: 20px;
-   
-   
+.face {
+  width: 300px;
+  border-radius: 40px;
+  padding-right: 20px;
 }
 
-p{
-    line-height: 45px;
+p {
+  line-height: 45px;
 }
 
-
-#about-me{
-    margin-top: 40px;
-    
+#about-me {
+  margin-top: 40px;
 }
 
 /* Main Content */
-.col-md-8{
-    background-color: floralwhite;
-    border-radius: 15px;
-    opacity: .8;
-    padding-bottom: 20px;
+.col-md-8 {
+  background-color: floralwhite;
+  border-radius: 15px;
+  opacity: 0.8;
+  padding-bottom: 20px;
 }
 
-.about-me-container{
-    margin-bottom: 50px;
+.about-me-container {
+  margin-bottom: 50px;
 }
 
 /* .footer{
@@ -71,34 +63,32 @@ p{
 } */
 
 #sticky-footer {
-    flex-shrink: none;
-
-.footer h6{
-    font-size: 10px;
+  flex-shrink: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
+.content-container{
+    margin-top: 150px;
+    background-color: floralwhite;
+    padding: 15px;
+    border-radius: 15px;
+    opacity: .8;
+}
 
 /* Media Queries */
 
-@media screen (max-width: 576px){
-    .col-md-8{
-        margin-top: -50px;
-    }
+@media screen (max-width: 576px) {
+  .col-md-8 {
+    margin-top: -50px;
+  }
 
-    .navbar-brand{
-        margin: auto 0;
-    }
+  .navbar-brand {
+    margin: auto 0;
+  }
 
-    h1{
-        text-align: center;
-    }
+  h1 {
+    text-align: center;
+  }
 }
-
-
-
-
-    
-
-
-
-
