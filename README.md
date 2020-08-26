@@ -8,8 +8,8 @@ With the Bootstrap Grid System and a couple of media queries in my custom styles
 
 # Validation
 
-I ran all HTML files through the W3C Validation Service to ensure that my markup was error-free.  Also all links are functioning.
+I ran all HTML files through the W3C Validation Service to ensure that my markup was error-free.  Semantic markup was used throughout, and all links are functional.  
 
 ### License & Copyright
 
-Copyright &copy; Tanner Kirkpattrick 2020
+Copyright &copy; Tanner Kirkpatrick 2020
