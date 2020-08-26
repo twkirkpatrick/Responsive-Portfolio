@@ -1,22 +1,15 @@
-# Responsive-Portfolio
+# Responsive Portfolio
 
 This is homework assignment #2 for the University of Richmond Full Stack Bootcamp.
 
-<<<<<<< HEAD
 For this project, my main goal was to create a responsive portfolio website utilizing **Bootstrap 4** along with **HTML5** and **CSS3**.
-=======
-For this project, my main goal was to create a responsive portfolio utilizing **Bootstrap 4** along with **HTML5** and **CSS3**.
->>>>>>> be3d30f7bf0381d38dbc0ffdc39c6aabacd66518
 
-With the Bootstrap Grid System and a couple of media queries, I was able to ensure that all of my content and images were 100% responsive across all screen sizes while maintaining a mobile-first approach.  
+With the Bootstrap Grid System and a couple of media queries in my custom stylesheet, I was able to ensure that all of my content and images were 100% responsive across all screen sizes while maintaining a mobile-first approach.
 
 # Validation
 
-I ran all HTML files through the W3C Validation Service to ensure that my markup was error-free.  Also, all links are functioning.
-<<<<<<< HEAD
+I ran all HTML files through the W3C Validation Service to ensure that my markup was error-free.  Also all links are functioning.
 
-# License & Copyright
+### License & Copyright
 
-Copyright &copy; Tanner Kirkpatrick 2020
-=======
->>>>>>> be3d30f7bf0381d38dbc0ffdc39c6aabacd66518
+Copyright &copy; Tanner Kirkpattrick 2020
