@@ -8,6 +8,6 @@ With the Bootstrap Grid System and a couple of media queries, I was able to ensu
 
 while maintaining a mobile-first approach.  
 
-##Validation
+# Validation
 
-I ran all HTML files through the W3C Validation Service to ensure that my markup was error-free.  Also, all links are functioning
+I ran all HTML files through the W3C Validation Service to ensure that my markup was error-free.  Also, all links are functioning.
