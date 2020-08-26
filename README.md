@@ -6,4 +6,4 @@ For this project, my main goal was to create a responsive portfolio utilizing Bo
 
 With the Bootstrap Grid System and a couple of media queries, I was able to ensure that all of my content and images were 100% responsive across all screen sizes while maintaining a mobile-first approach.  
 
-![] (/images/#1.jpg)
+![] (images/#1.jpg)
