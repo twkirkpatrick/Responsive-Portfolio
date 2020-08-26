@@ -1,5 +1,5 @@
 * {
-    font-family: 'Montserrat', sans-serif;;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /* ABOUT PAGE */
@@ -13,12 +13,12 @@
   margin-left: 150px;
 }
 
-body {
+ body {
   background-image: url(images/mtn.jpg);
   background-size: stretch;
   background-repeat: no-repeat;
-  height: 100vh;
-}
+  height: 100vh;  
+}  
 
 .header {
   margin-left: 15px;
@@ -137,7 +137,6 @@ main a {
       margin-left: 0px;
       margin-right: 0px;
       
-  }
-
+  } 
   
 }
