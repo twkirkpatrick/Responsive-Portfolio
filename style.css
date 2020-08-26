@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;;
 }
 
-/* pushes navbar items to right */
+/* ABOUT PAGE */
 .navbar-nav {
   position: absolute;
   right: 0;
@@ -25,7 +25,7 @@ body {
   border-bottom: solid 1px black;
 }
 
-/* Main Image */
+
 .face {
   width: 300px;
   border-radius: 40px;
@@ -42,6 +42,7 @@ p {
 
 main a {
     font-size: 50px;
+    padding: 6px;
 }
 
 /* Main Content */
@@ -57,7 +58,7 @@ main a {
 }
 
 
-/* Beginning of Contact Page */
+/* CONTACT PAGE */
 #column{
     margin-top: 150px;
     background-color: white;
@@ -83,9 +84,7 @@ main a {
       font-size: 10px;
   }
 
-  /* Beginning of Portfolio Page */
-
-
+  /* PORTFOLIO PAGE */
 
   .project-header{
       border-bottom: solid 1px black;
@@ -107,9 +106,6 @@ main a {
       border: solid 1px black;
 
   }
-
-  
-
 
 
 
