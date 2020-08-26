@@ -51,6 +51,8 @@ main a {
   border-radius: 15px;
   opacity: 0.8;
   padding-bottom: 20px;
+  border: solid 2px #3C5DA2;
+  padding-top: 20px;
 }
 
 .about-me-container {
@@ -66,6 +68,7 @@ main a {
     border-radius: 15px;
     opacity: .8;
     margin-left: 45px;
+    border: solid 2px #3C5DA2;
 }
 
 .header-contact{
@@ -95,17 +98,22 @@ main a {
       margin-top: 50px;
       opacity: .8;
       padding-bottom: 20px;
+      padding-top: 20px;
       border-radius: 15px;
+      border: solid 2px #3C5DA2;
+
   }
 
   .sample-image{
       margin: 10px 0px;
+    
   }
 
   .img-thumbnail{
       border: solid 1px black;
-
+     
   }
+
 
 
 
