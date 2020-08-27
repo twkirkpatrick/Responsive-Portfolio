@@ -11,6 +11,7 @@
 
 .navbar-brand {
   margin-left: 40px;
+  text-transform: uppercase;
   
   
 }
@@ -53,11 +54,13 @@ p {
 
 #about-me {
   margin-top: 115px;
+  
 }
 
 main a {
     font-size: 50px;
     padding: 6px;
+    margin-left: 32px;
 }
 
 /* Main Content */
@@ -100,6 +103,7 @@ main a {
   
   h6{
       font-size: 10px;
+      padding-top: 10px;
   }
 
   /* PORTFOLIO PAGE */
