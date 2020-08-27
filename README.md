@@ -10,6 +10,11 @@ With the Bootstrap Grid System and a couple of media queries in my custom styles
 
 I ran all HTML files through the W3C Validation Service to ensure that my markup was error-free.  Semantic markup was used throughout, and all links are functional.  
 
+# Resources 
+    * Font- https://fonts.google.com/
+    * Social Media Icons- https://fontawesome.com/
+    * Animations- https://animate.style/
+
 ### License & Copyright
 
 Copyright &copy; Tanner Kirkpatrick 2020
