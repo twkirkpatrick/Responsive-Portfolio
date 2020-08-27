@@ -38,7 +38,7 @@ nav a:hover{
 
 .header {
   margin-left: 15px;
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px #3C5DA2;
 }
 
 
@@ -90,7 +90,7 @@ main a {
 }
 
 .header-contact{
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px #3C5DA2;
 }
 
 .footer {
@@ -109,7 +109,7 @@ main a {
   /* PORTFOLIO PAGE */
 
   .project-header{
-      border-bottom: solid 1px black;
+      border-bottom: solid 1px #3C5DA2;
   }
 
   #main-column{
@@ -129,7 +129,7 @@ main a {
   }
 
   .img-thumbnail{
-      border: solid 1px black;
+      border: solid 1px #3C5DA2;
      
   }
 
