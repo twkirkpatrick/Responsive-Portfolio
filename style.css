@@ -10,8 +10,23 @@
 }
 
 .navbar-brand {
-  margin-left: 150px;
+  margin-left: 40px;
+  
+  
 }
+
+.navbar-brand:hover{
+  border-top: none;
+}
+
+
+nav a:hover{
+  animation: pulse;
+  animation-duration: .45s;
+  border-bottom: solid 1px white;
+}
+
+
 
  body {
   background-image: url(images/mtn.jpg);
