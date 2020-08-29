@@ -194,8 +194,12 @@ main a {
   
 }
 
-@media only screen and (max-width: 433px){
+@media only screen and (max-width: 400px){
     main a{
       font-size: 40px;
+    }
+
+    #main-content{
+      margin-bottom: 50px;
     }
 }
