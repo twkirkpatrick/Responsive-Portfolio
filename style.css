@@ -6,18 +6,17 @@ html{
   height: 100%;
 }
 
-/* ABOUT PAGE */
-/* .navbar-nav {
-  position: absolute;
-  right: 0;
-  margin: 0 15px;
-} */
+body {
+  background: url(images/mtn.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+/* ABOUT PAGE */
 .navbar-brand {
-  /* margin-left: 40px; */
   text-transform: uppercase;
-  
-  
 }
 
 nav{
@@ -40,19 +39,11 @@ nav a:hover{
   border-bottom: solid 1px white;
 }
 
+
 .navbar-nav{
   margin-right: 70px;
 }
 
-
-
-body {
-  background: url(images/mtn.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 .header {
   margin-left: 15px;
@@ -74,32 +65,24 @@ p {
 }
 
 #about-me {
-  margin-top: 70px;
+  margin-top: 120px;
   
 }
 
 main a {
     font-size: 55px;
     margin: auto 17px;
-    
-    
 }
 
 #social a:hover{
   text-decoration: none;
 }
 
-
-
- /* Main Content */
-
 #main-content {
   background-color:rgb(248, 247, 247, 0.8);
   border-radius: 15px;
   padding: 15px;
-
   border: solid 2px #3C5DA2;
-
 }
 
 
@@ -164,9 +147,6 @@ main a {
   }
 
 
-
-
-
 /* Media Queries */
 
 @media only screen and (max-width: 576px) {
@@ -196,7 +176,7 @@ main a {
 
 @media only screen and (max-width: 400px){
     main a{
-      font-size: 40px;
+      font-size: 35px;
     }
 
     #main-content{
