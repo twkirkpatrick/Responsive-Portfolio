@@ -14,7 +14,7 @@ html{
 } */
 
 .navbar-brand {
-  margin-left: 40px;
+  /* margin-left: 40px; */
   text-transform: uppercase;
   
   
@@ -22,7 +22,7 @@ html{
 
 nav{
   margin: 0 auto;
-  width: 80%
+  width: 100%
 }
 
 header{
@@ -38,6 +38,10 @@ nav a:hover{
   animation: pulse;
   animation-duration: .45s;
   border-bottom: solid 1px white;
+}
+
+.navbar-nav{
+  margin-right: 70px;
 }
 
 
@@ -132,7 +136,7 @@ main a {
 
   .project-header{
       border-bottom: solid 1px #3C5DA2;
-      background-color: none;
+      
   }
 
   #main-column{
